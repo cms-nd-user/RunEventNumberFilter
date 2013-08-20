@@ -35,7 +35,7 @@ process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 #Event Selection
 process.selectEventsByRunEventNumber = cms.EDFilter("RunEventNumberFilter",
 													debug = cms.bool(False),
-													filename = cms.string('exampleEvents.log')
+													filename = cms.string('inputs.txt')
 													)
 
 # Output definition
